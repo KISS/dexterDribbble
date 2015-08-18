@@ -1,0 +1,197 @@
+/*   BASIC   */
+
+body {
+	font-family: 'Asap', sans-serif;
+}
+
+header {
+	background: url(/images/header-bg.png) no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+button {
+	border-style: none;	
+	background-color: #49b9e6;
+	border-radius: 5px;
+	border-color: #49b9e6;
+	height: 40px;
+	width: 150px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.main-img img {
+	display: none;
+}
+
+
+/*   LOGO   */
+
+.logo {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+/*   QUICK STATS - - INFO   */
+
+.info-icons {
+	background: url(/images/dark-blue-bg.png);
+	background-size: cover;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0;
+	list-style: none;
+}
+
+.info-icons li {
+	padding: 10px 0px;
+}
+
+.info-icons img {
+	width: 40%;
+}
+
+/*   TESTIMONIAL   */
+
+.testimonial {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.testimonial-main-img {
+	height: 150px;
+	margin: 0 auto;
+}
+
+.testimonial blockquote {
+	background-color: #ecf0f1;
+	padding: 20px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.mandark-icon {
+	padding: 0 25%;
+	height: 125px;
+}
+
+
+
+/* ABOUT */
+
+.about {
+	padding: 20px;
+}
+
+.about p {
+	font-weight: normal;
+	font-size: 0.7em;
+}
+
+.about img {
+	height: 150px;
+}
+
+/* TEAM BIO'S */
+
+.team-bios {
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	background-color: #ecf0f1;
+	color: #828485;
+}
+
+.team-bios h2 {
+	color: #000;
+}
+
+.team-bios a:link {
+	color: #00a3e4;
+}
+
+.team-bios a:visited {
+	color: #00a3e4;
+}
+
+
+/*   FOOTER   */
+
+.footer-message {
+	background-color: #f1c40f;
+	padding: 20px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+.footer {
+	background: url(/images/footer-bg.png) no-repeat #d8af0c;
+	background-size: cover;
+	margin: 0 auto;
+	color: #fff;
+	padding: 20px;
+}
+
+.footer a:link {
+	color: #fff;
+}
+
+.email img {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.location img {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.skype img {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.skype span {
+	display: block;
+}
+
+
+
+/*   TABLET to DESKTOP ADJUSTMENTS  */
+
+@media only screen and (min-width: 768px) {
+	
+	.main-img img {
+		display: inline-block;
+		float: right;
+		height: 250px;
+	}
+
+	.info-icons li {
+		display: inline-block;
+		padding: 30px;
+	}
+
+	.info-icons img {
+		width: 75%;
+	}
+
+	.team-bios {
+		display: inline-block;
+	}
+
+	.footer div {
+		display: inline-block;
+	}
+
+}
