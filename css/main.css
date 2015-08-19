@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background: url("/images/header-bg.png") no-repeat;
+	background: url("../images/header-bg.png") no-repeat;
 	background-size: cover;
 	height: 100%;
 	padding: 20px;
@@ -135,7 +135,7 @@ button {
 }
 
 .footer {
-	background: url("/images/footer-bg.png") #D7AE2A no-repeat;
+	background: url("../images/footer-bg.png") #D7AE2A no-repeat;
 	background-size: cover;
 	margin: 0 auto;
 	color: #fff;
