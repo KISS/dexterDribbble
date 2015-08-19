@@ -109,6 +109,7 @@ button {
 	text-align: center;
 	background-color: #ecf0f1;
 	color: #828485;
+	width: 100%;
 }
 
 .team-bios h2 {
@@ -135,7 +136,7 @@ button {
 }
 
 .footer {
-	background: url("/images/footer-bg.png") #D7AE2A no-repeat;
+	background: url("../images/footer-bg.png") #D7AE2A no-repeat;
 	background-size: cover;
 	margin: 0 auto;
 	color: #fff;
