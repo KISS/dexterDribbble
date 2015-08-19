@@ -42,7 +42,7 @@ button {
 /*   QUICK STATS - - INFO   */
 
 .info-icons {
-	background: url(/images/dark-blue-bg.png);
+	background-color: #0084b8;
 	background-size: cover;
 	height: 100%;
 	color: #fff;
